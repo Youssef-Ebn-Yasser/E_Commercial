@@ -1,0 +1,206 @@
+﻿:root {
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --gray-color: #888;
+    --nav-color: #E3E6F3;
+}
+/* start box*/
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+@media (max-width:767px) {
+    .block-mobile {
+        display: block;
+    }
+}
+
+.d-block {
+    display: block;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.p-relative {
+    position: relative;
+}
+/* end box*/
+
+.w-fit {
+    width: fit-content;
+}
+
+/*start coloring*/
+.bg-white {
+    background-color: white;
+}
+
+.bg-eee {
+    background-color: #eee;
+}
+
+.bg-nav {
+    background-color: var(--nav-color);
+}
+
+.bg-blue {
+    background-color: var(--blue-color);
+}
+
+.bg-green {
+    background-color: var(--green-color);
+}
+
+.bg-orange {
+    background-color: var(--orange-color);
+}
+
+.c-black {
+    color: black !important;
+}
+
+.c-white {
+    color: white;
+}
+
+.c-gray {
+    color: var(--gray-color);
+}
+
+.c-blue {
+    color: var(--blue-color);
+}
+/*end coloring*/
+
+/* start margin padding*/
+.p-10 {
+    padding: 10px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.m-0 {
+    margin: 0px;
+}
+
+.m-20 {
+    margin: 20px;
+}
+
+.mt-0 {
+    margin-top: 0px;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+.mt-100 {
+    margin-top: 100px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+.ml-20 {
+    margin-left: 10px;
+}
+/* end margin padding*/
+.w-full {
+    width: 100%;
+}
+
+.b-none {
+    border: none;
+}
+/*start font*/
+.text-c {
+    text-align: center;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+/*end font*/
+
+/* start border */
+.rad-6 {
+    border-radius: 6px;
+}
+
+.rad-10 {
+    border-radius: 10px;
+}
+/* end border */
+
+@media (max-width:767px) {
+    .hide-mobile {
+        display: none;
+    }
+
+    .txt-c-mobile {
+        text-align: center;
+    }
+}
+
+/* start component*/
+
+.between-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-shap {
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* end component*/

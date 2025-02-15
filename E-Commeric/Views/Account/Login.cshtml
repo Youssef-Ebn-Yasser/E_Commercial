@@ -1,0 +1,32 @@
+﻿@model LoginViewModel
+
+
+<body class="bg-gray">
+    <div class=" d-flex justify-content-center align-content-center container mt-100">
+        <div style="width: 100%; max-width: 400px; padding: 20px; border-radius: 10px; background: white; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+            <h1 style="font-size: 24px; font-weight: bold; text-align: center; margin-bottom: 20px;" class="">Login</h1>
+            <form asp-action="Login" asp-controller="Account" method="post">
+                <Input asp-for="ReturnUrl" hidden />
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" asp-for="Email" placeholder="Enter your email or User Name" required>
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" asp-for="Password" placeholder="Enter your password" required>
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-floating mb-4">
+                    <Input  type="checkbox" asp-for="RememberMe" />
+                    <label class="form-check-label" ></label> Remember Me
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Login</button>
+            </form>
+            <a href="#" style="text-decoration: none; font-size: 14px; display: block; text-align: center; margin-top: 10px;">Create a new account</a>
+        </div>
+    </div>
+</body>
+
+
+

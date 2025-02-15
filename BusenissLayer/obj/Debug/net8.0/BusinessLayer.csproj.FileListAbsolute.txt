@@ -1,0 +1,15 @@
+D:\New folder (2)\E-Commeric\BusenissLayer\obj\Debug\net8.0\BusinessLayer.csproj.AssemblyReference.cache
+D:\New folder (2)\E-Commeric\BusenissLayer\obj\Debug\net8.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder (2)\E-Commeric\BusenissLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfoInputs.cache
+D:\New folder (2)\E-Commeric\BusenissLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfo.cs
+D:\New folder (2)\E-Commeric\BusenissLayer\obj\Debug\net8.0\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\New folder (2)\E-Commeric\BusenissLayer\bin\Debug\net8.0\BusinessLayer.deps.json
+D:\New folder (2)\E-Commeric\BusenissLayer\bin\Debug\net8.0\BusinessLayer.dll
+D:\New folder (2)\E-Commeric\BusenissLayer\bin\Debug\net8.0\BusinessLayer.pdb
+D:\New folder (2)\E-Commeric\BusenissLayer\bin\Debug\net8.0\DataLayer.dll
+D:\New folder (2)\E-Commeric\BusenissLayer\bin\Debug\net8.0\DataLayer.pdb
+D:\New folder (2)\E-Commeric\BusenissLayer\obj\Debug\net8.0\Business.EA331CBA.Up2Date
+D:\New folder (2)\E-Commeric\BusenissLayer\obj\Debug\net8.0\BusinessLayer.dll
+D:\New folder (2)\E-Commeric\BusenissLayer\obj\Debug\net8.0\refint\BusinessLayer.dll
+D:\New folder (2)\E-Commeric\BusenissLayer\obj\Debug\net8.0\BusinessLayer.pdb
+D:\New folder (2)\E-Commeric\BusenissLayer\obj\Debug\net8.0\ref\BusinessLayer.dll

@@ -1,0 +1,75 @@
+﻿@model UpdateUserViewModel
+
+<body class="bg-gray">
+    <div class="d-flex justify-content-center">
+        <form asp-action="Update" method="post" class="w-100 m-5 bg-white"
+              style="max-width: 600px; padding: 20px; border: 1px solid #ddd; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); border-radius: 8px;">
+            <div class="bg-primary text-center text-white py-2 mb-4" style="border-radius: 6px;">
+                <h4>Update User</h4>
+            </div>
+            <div asp-validation-summary="All" class="text-danger mb-3"></div>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Name"></label>
+                        <input asp-for="Name" class="form-control" placeholder="Enter your name"
+                               style="outline: none;" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="UserName"></label>
+                        <input asp-for="UserName" class="form-control" placeholder="Enter the UserName"
+                               style="outline: none;" />
+                        <span asp-validation-for="UserName" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Email"></label>
+                        <input asp-for="Email" class="form-control" placeholder="Enter your email"
+                               style="outline: none;" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="NationalId"></label>
+                        <input asp-for="NationalId" class="form-control" placeholder="Enter your national ID"
+                               style="outline: none;" />
+                        <span asp-validation-for="NationalId" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Address"></label>
+                        <input asp-for="Address" class="form-control" placeholder="Enter your address"
+                               style="outline: none;" />
+                        <span asp-validation-for="Address" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="PhoneNumber"></label>
+                        <input asp-for="PhoneNumber" class="form-control" placeholder="Enter your phone number"
+                               style="outline: none;" />
+                        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-group">
+                        <label asp-for="Type"></label>
+                        <input asp-for="Type" class="form-control" placeholder="Enter user type"
+                               style="outline: none;" />
+                        <span asp-validation-for="Type" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-4 text-center">
+                <button asp-action="Update" type="submit" class="btn btn-primary">Update</button>
+                <a asp-action="ShowAll" class="btn btn-secondary">Cancel</a>
+            </div>
+        </form>
+    </div>
+</body>

@@ -1,0 +1,232 @@
+﻿@model List<ShowAllProductsViewModel>
+
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+<head>
+    <style>
+        .fe-box:hover, .box:hover {
+            box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.3);
+        }
+    </style>
+</head>
+
+<section id="hero" class="d-flex flex-column justify-content-center align-items-start" style="background-image: url('images/hero4.png'); background-repeat: no-repeat; background-size: cover; height: 90vh; padding: 0px 80px;">
+    <h4 class="mb-3" style="font-size: 16px;">Trade-in-offer</h4>
+    <h2 class="mb-3" style="font-size: 32px;">Super Value Deals</h2>
+    <h1 class="text-success mb-3" style="font-size: 48px; color: #088178;">On all Products</h1>
+    <p style="font-size: 16px;">Save more with coupons & up to 70% off!</p>
+    <a class="btn btn-outline-success" style="width:244px; background-image: url('images/button.png'); background-color: transparent; color: #088178; border: 0; padding: 14px 80px 14px 65px; background-repeat: no-repeat; font-weight: 700; font-size: 15px; cursor: pointer;">
+        Shop Now
+    </a>
+</section>
+<section id="feature" class="section-p1 d-flex flex-wrap justify-content-center">
+    <div class="fe-box text-center p-3 mx-3 my-3" style="border: 1px solid #cce7d0; border-radius: 4px; width: 180px; transition: box-shadow 0.3s;">
+        <img src="Images/features/f1.png" class="mb-3" style="width: 150px; height: 150px;">
+        <h6 class="inline-block" style="margin-top: 13px; padding: 9px 8px 6px 8px; background-color: #fddde4; color: #088178; border-radius: 4px;">Free Shipping</h6>
+    </div>
+    <div class="fe-box text-center p-3 mx-3 my-3" style="border: 1px solid #cce7d0; border-radius: 4px; width: 180px; transition: box-shadow 0.3s;">
+        <img src="Images/features/f2.png" class="mb-3" style="width: 150px; height: 150px;">
+        <h6 class="inline-block" style="margin-top: 13px; padding: 9px 8px 6px 8px; background-color: #cdebbc; color: #088178; border-radius: 4px;">Online Order</h6>
+    </div>
+    <div class="fe-box text-center p-3 mx-3 my-3" style="border: 1px solid #cce7d0; border-radius: 4px; width: 180px; transition: box-shadow 0.3s;">
+        <img src="Images/features/f3.png" class="mb-3" style="width: 150px; height: 150px;">
+        <h6 class="inline-block" style="margin-top: 13px; padding: 9px 8px 6px 8px; background-color: #d1e8f2; color: #088178; border-radius: 4px;">Save Money</h6>
+    </div>
+    <div class="fe-box text-center p-3 mx-3 my-3" style="border: 1px solid #cce7d0; border-radius: 4px; width: 180px; transition: box-shadow 0.3s;">
+        <img src="Images/features/f4.png" class="mb-3" style="width: 150px; height: 150px;">
+        <h6 class="inline-block" style="margin-top: 13px; padding: 9px 8px 6px 8px; background-color: #ccd4f8; color: #088178; border-radius: 4px;">Promotion</h6>
+    </div>
+    <div class="fe-box text-center p-3 mx-3 my-3" style="border: 1px solid #cce7d0; border-radius: 4px; width: 180px; transition: box-shadow 0.3s;">
+        <img src="Images/features/f5.png" class="mb-3" style="width: 150px; height: 150px;">
+        <h6 class="inline-block" style="margin-top: 13px; padding: 9px 8px 6px 8px; background-color: #f6dbf6; color: #088178; border-radius: 4px;">Happy Sale</h6>
+    </div>
+    <div class="fe-box text-center p-3 mx-3 my-3" style="border: 1px solid #cce7d0; border-radius: 4px; width: 180px; transition: box-shadow 0.3s;">
+        <img src="Images/features/f6.png" class="mb-3" style="width: 150px; height: 150px;">
+        <h6 class="inline-block" style="margin-top: 13px; padding: 9px 8px 6px 8px; background-color: #fff2e5; color: #088178; border-radius: 4px;">Suppert</h6>
+    </div>
+</section>
+<section id="new-product" class="section-p1 py-5">
+    <div class="container">
+        <div class="header text-center mb-5">
+            <h2>Featured Products</h2>
+            <p>Summer Collection new modern design</p>
+        </div>
+        <div class="row g-4">
+            <!-- Product Card 1 -->
+            @if(Model is not null)
+            {
+
+                foreach (var product in Model.Take(Model.Count / 2))
+                {
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card border-light rounded-3 shadow-sm p-3">
+                            @if (product.Paths is not null)
+                            {
+                                var carouselId = $"carousel-{product.ProductId}";
+
+                                <div id="@carouselId" class="carousel slide" data-bs-ride="carousel">
+                                    <!-- Indicators -->
+                                    <div class="carousel-indicators">
+                                        @for (int i = 0; i < product.Paths.Count; i++)
+                                        {
+                                            <button type="button" data-bs-target="#@carouselId"
+                                                    data-bs-slide-to="@i"
+                                                    class="@(i == 0 ? "active" : "")"
+                                                    aria-current="@(i == 0 ? "true" : "false")"
+                                                    aria-label="Slide @(i+1)">
+                                            </button>
+                                        }
+                                    </div>
+
+                                    <!-- Carousel Images -->
+                                    <div class="carousel-inner">
+                                        @foreach (var path in product.Paths)
+                                        {
+                                            <div class="carousel-item  @(1==1? "active" : "") ">
+                                                <img src="@path" class="d-block w-100 rounded-3" alt="Product Image" style="width:100px ; height:200px">
+                                            </div>
+                                        }
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#@carouselId" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#@carouselId" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            }
+                            <div class="card-body">
+                                <span class="text-muted">@product.ProductName</span>
+                                <h5 class="card-title mt-2">@product.CategoryName</h5>
+                                <div class="star mb-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <h4>@product.Price</h4>
+                                <a asp-action="_SaveInCookiesAndRedirect" asp-controller="Home" asp-route-productId="@product.ProductId" class="btn btn-outline-success rounded-circle position-absolute" style="right: 10px; bottom: 10px;">
+                                    <i class="fas fa-cart-plus"></i>
+                                </a>
+                                <a asp-action="ShowProductDetails" asp-controller="Home" asp-route-Id="@product.ProductId" class="btn btn-outline-warning  ">More details</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+</section>
+<section id="banner" class="section-m1 py-5" style="background-image: url('images/banner/b1.jpg'); background-size: cover; background-position: center;">
+    <div class="container text-center">
+        <h4 class="text-white">Repair Services</h4>
+        <h2 class="text-white">
+            Up to <span class="text-danger">70% Off</span> - All t-Shirts & Accessories
+        </h2>
+        <a href="#">
+            <button class="normal-button btn btn-success btn-lg px-4 py-2">Explore More</button>
+        </a>
+    </div>
+</section>
+<section id="new-product" class="section-p1 py-5">
+    <div class="container">
+        <div class="header text-center mb-5">
+            <h2>New Products</h2>
+            <p>Summer Collection new modern design</p>
+        </div>
+        <div class="row g-4">
+            <div class="row g-4">
+                <!-- Product Card 1 -->
+                @if (Model is not null)
+                {
+                    foreach (var product in Model.Skip(Model.Count / 2))
+                    {
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="card border-light rounded-3 shadow-sm p-3">
+                                @if (product.Paths is not null)
+                                {
+                                    var carouselId = $"carousel-{product.ProductId}";
+
+                                    <div id="@carouselId" class="carousel slide" data-bs-ride="carousel">
+                                        <!-- Indicators -->
+                                        <div class="carousel-indicators">
+                                            @for (int i = 0; i < product.Paths.Count; i++)
+                                            {
+                                                <button type="button" data-bs-target="#@carouselId"
+                                                        data-bs-slide-to="@i"
+                                                        class="@(i == 0 ? "active" : "")"
+                                                        aria-current="@(i == 0 ? "true" : "false")"
+                                                        aria-label="Slide @(i+1)">
+                                                </button>
+                                            }
+                                        </div>
+
+                                        <!-- Carousel Images -->
+                                        <div class="carousel-inner">
+                                            @foreach (var path in product.Paths)
+                                            {
+                                                <div class="carousel-item  @(1==1? "active" : "") ">
+                                                    <img src="@path" class="d-block w-100 rounded-3" alt="Product Image" style="width:100px ; height:200px">
+                                                </div>
+                                            }
+                                        </div>
+
+                                        <!-- Controls -->
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#@carouselId" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#@carouselId" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                }
+                                <div class="card-body">
+                                    <span class="text-muted">@product.ProductName</span>
+                                    <h5 class="card-title mt-2">@product.CategoryName</h5>
+                                    <div class="star mb-2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <h4>@product.Price</h4>
+                                    <a asp-action="_SaveInCookiesAndRedirect" asp-controller="Home" asp-route-productId="@product.ProductId" class="btn btn-outline-success rounded-circle position-absolute" style="right: 10px; bottom: 10px;">
+                                        <i class="fas fa-cart-plus"></i>
+                                    </a>
+                                    <a asp-action="ShowProductDetails" asp-controller="Home" asp-route-Id="@product.ProductId" class="btn btn-outline-warning  ">More details</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</section>
+<section id="first-banner" class="d-flex flex-wrap px-3 ">
+        <div class="big-banner col-lg-6 col-md-6 col-12 p-5"
+             style=" background-image: url('Images/blog/b6.jpg'); background-size: cover; background-position: center; height: 60vh; display: flex; justify-content: center; align-items: flex-start; flex-direction: column; ">
+            <h4 class="text-white mb-2" style="font-size: 20px;">Crazy deals</h4>
+            <h2 class="text-white mb-2" style="font-size: 28px;">Buy 1 Get 1 Free</h2>
+            <span class="text-white mb-3" style="font-size: 14px;">The best clothes ever seen</span>
+            <a href="#"><button class="btn btn-lg" style="background-color: #088178; color: #fff;">Learn More</button></a>
+        </div>
+        <div class="big-banner col-lg-6 col-md-6 col-12 p-5 "
+             style="background-image: url('Images/blog/b7.jpg'); background-size: cover; background-position: center; height: 60vh; display: flex; justify-content: center; align-items: flex-start; flex-direction: column;">
+            <h4 class="text-white mb-2" style="font-size: 20px;">Crazy deals</h4>
+            <h2 class="text-white mb-2" style="font-size: 28px;">Buy 1 Get 1 Free</h2>
+            <span class="text-white mb-3" style="font-size: 14px;">The best clothes ever seen</span>
+            <a href="#"><button class="btn btn-lg" style="background-color: #088178; color: #fff;">Learn More</button></a>
+        </div>
+</section>
+<div id="productData">
+    @await Html.PartialAsync("_Footer")
+</div> 

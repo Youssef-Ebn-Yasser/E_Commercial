@@ -1,0 +1,81 @@
+﻿@model UpdateProductViewModel
+
+<body class="bg-gray">
+    <div class="d-flex justify-content-center">
+        <form asp-action="Update" asp-controller="Product" enctype="multipart/form-data" method="post" class="w-100 m-5 bg-white"
+              style="max-width: 600px; padding: 20px; border: 1px solid #ddd; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); border-radius: 8px;">
+            <div class="bg-primary text-center text-white py-2 mb-4" style="border-radius: 6px;">
+                <h4>Create Product</h4>
+            </div>
+
+            <div asp-validation-summary="All" class="text-danger mb-3"></div>
+            <input asp-for="ProductId" hidden />
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="ProductName"></label>
+                        <input asp-for="ProductName" class="form-control" placeholder="Enter the product Name"
+                               style="outline: none;" />
+                        <span asp-validation-for="ProductName" class="text-danger"></span>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Price"></label>
+                        <input asp-for="Price" class="form-control" placeholder="Enter the Price"
+                               style="outline: none;" />
+                        <span asp-validation-for="Price" class="text-danger"></span>
+
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label asp-for="ProductDetails"></label>
+                        <textarea asp-for="ProductDetails" class="form-control" placeholder="Enter the Product Details"
+                                  style="outline: none; resize: none;"></textarea>
+                        <span asp-validation-for="ProductDetails" class="text-danger"></span>
+
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="AmountInStock"></label>
+                        <input asp-for="AmountInStock" class="form-control" min="1" placeholder="Enter the Amount In the Stock"
+                               style="outline: none;" />
+                        <span asp-validation-for="AmountInStock" class="text-danger"></span>
+
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Brand"></label>
+                        <input asp-for="Brand" class="form-control" placeholder="Enter Brand"
+                               style="outline: none;" />
+                        <span asp-validation-for="Brand" class="text-danger"></span>
+
+                    </div>
+                </div>
+
+
+                <div class="col-12">
+                    <label asp-for="Files"></label>
+                    <input type="file" asp-for="Files" class="form-control" multiple value="Files" />
+                    <span asp-validation-for="Files" class="text-danger"></span>
+                </div>
+                <div>
+                    <label>CategoryName</label>
+                    <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.categories">
+                    </select>
+                </div>
+            </div>
+
+            <div class="mt-4 text-center">
+                <button type="submit" class="btn btn-primary" asp-action="Update">Update</button>
+                <a asp-action="ShowAll" class="btn btn-secondary">Cancel</a>
+            </div>
+        </form>
+    </div>
+</body>

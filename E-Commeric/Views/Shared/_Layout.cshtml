@@ -1,0 +1,101 @@
+﻿@inject SignInManager<User> _signInManager
+@inject UserManager<User> UserManager
+
+@{
+    var currentUser = new User();
+     currentUser = await UserManager.GetUserAsync(User);
+}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - E_Commercial</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/E_Commercial.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Register.css" />
+    <link rel="stylesheet" href="~/css/frame-work.css" />
+    <link href="~/css/all.min.css" rel="stylesheet">
+    <link href="~/css/all.css" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <header class="bg-nav fixed-top" style="box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); z-index: 10;">
+        <nav class="navbar navbar-expand-lg navbar-light container" >
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" style="font-size:25px;">Yousef</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-lg-end justify-content-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link  c-black" aria-current="page" asp-action="Index" asp-controller="Home">Home</a>
+                        </li>
+                        <li class="nav-item ml-20">
+                            <a class="nav-link c-black" asp-action="ShowCategoryTypes" asp-controller="Home">Categories</a>
+                        </li>
+                        <li class="nav-item ml-20">
+                            <a class="nav-link c-black" asp-action="ShowAboutPage" asp-controller="Home">About</a>
+                        </li>
+                            <li class="nav-item ml-20">
+                                <a class="nav-link c-black" asp-action="ShowCartPage" asp-controller="Home">Card</a>
+                            </li>
+                        @if (currentUser is not null && currentUser.Type != "Client")
+                        {
+                            <li class="nav-item ml-20 ">
+                                <a class="nav-link c-black" asp-action="Index" asp-controller="Services">Services</a>
+                            </li>
+                        } 
+
+                        <li class="nav-item ml-20 ">
+                            <a class="nav-link c-black" asp-action="Register" asp-controller="Account">Register</a>
+                        </li>
+                        @if (User.Identity!=null && _signInManager.IsSignedIn(User))
+                        {
+                            <li class="nav-item ml-20 ">
+                                <form >
+                                    <a class="nav-link c-black" asp-action="LogOut" asp-controller="Account" >
+                                        LogOut
+                                    </a>
+                                </form>
+
+                            </li>
+                            <li class="nav-item ml-20 ">
+                                <a class="nav-link c-black" >
+                                    <i class="fas fa-user-circle"></i> @User.Identity.Name
+                                </a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item ml-20 ">
+                                <a class="nav-link c-black" asp-action="Login" asp-controller="Account">
+                                    <i class="fas fa-user-circle"></i> Login
+                                </a>
+                            </li>
+                        }
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div style="margin-top:56px">
+        @RenderBody()
+
+    </div>
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

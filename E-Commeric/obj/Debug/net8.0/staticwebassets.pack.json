@@ -1,0 +1,601 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\E_Commercial.bundle.scp.css",
+      "PackagePath": "staticwebassets\\E_Commercial.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\Added\\images\\2df47b56caf04ddd8d2dcc26056701fb.jpg",
+      "PackagePath": "staticwebassets\\Added\\images\\2df47b56caf04ddd8d2dcc26056701fb.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\Added\\images\\4b81cbcb42b6409db7eba5afb9612732.jpg",
+      "PackagePath": "staticwebassets\\Added\\images\\4b81cbcb42b6409db7eba5afb9612732.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\Added\\images\\52ba6c80f8b04a94849b8576273e9b86.jpg",
+      "PackagePath": "staticwebassets\\Added\\images\\52ba6c80f8b04a94849b8576273e9b86.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\Added\\images\\5bcfb732c21944c68ad1636682db382a.jpg",
+      "PackagePath": "staticwebassets\\Added\\images\\5bcfb732c21944c68ad1636682db382a.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\Added\\images\\745baab654bc475884585757d449d1a1.jpg",
+      "PackagePath": "staticwebassets\\Added\\images\\745baab654bc475884585757d449d1a1.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\Added\\images\\7dfa8c6bbf4d4a34aefcea3a26784b96.jpg",
+      "PackagePath": "staticwebassets\\Added\\images\\7dfa8c6bbf4d4a34aefcea3a26784b96.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\Added\\images\\857e588d2cf045a9bd0b0a751e6a263e.jpg",
+      "PackagePath": "staticwebassets\\Added\\images\\857e588d2cf045a9bd0b0a751e6a263e.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\Added\\images\\91888526f73c49d2a567cf1ef7089787.jpg",
+      "PackagePath": "staticwebassets\\Added\\images\\91888526f73c49d2a567cf1ef7089787.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\Added\\images\\94f03be881044499812b591dc122e2b5.jpg",
+      "PackagePath": "staticwebassets\\Added\\images\\94f03be881044499812b591dc122e2b5.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\Added\\images\\99050e30c7be4658bbe57129a6f2626f.jpg",
+      "PackagePath": "staticwebassets\\Added\\images\\99050e30c7be4658bbe57129a6f2626f.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\Added\\images\\c11ca267987748599332b7bb7254b481.jpg",
+      "PackagePath": "staticwebassets\\Added\\images\\c11ca267987748599332b7bb7254b481.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\Added\\images\\f0e2804478bb4a6a85f79aa9c185e71c.jpg",
+      "PackagePath": "staticwebassets\\Added\\images\\f0e2804478bb4a6a85f79aa9c185e71c.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\Added\\images\\f5d0da597a204f25af26853443a6f8cb.jpg",
+      "PackagePath": "staticwebassets\\Added\\images\\f5d0da597a204f25af26853443a6f8cb.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\Added\\images\\f6e60559904e4e6ab3a331fd25f77d6c.jpg",
+      "PackagePath": "staticwebassets\\Added\\images\\f6e60559904e4e6ab3a331fd25f77d6c.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\Added\\images\\fa93286d104f48048fa8c8f02a950cda.jpg",
+      "PackagePath": "staticwebassets\\Added\\images\\fa93286d104f48048fa8c8f02a950cda.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\css\\all.css",
+      "PackagePath": "staticwebassets\\css\\all.css"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\css\\frame-work.css",
+      "PackagePath": "staticwebassets\\css\\frame-work.css"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\css\\register.css",
+      "PackagePath": "staticwebassets\\css\\register.css"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\about\\1.mp4",
+      "PackagePath": "staticwebassets\\images\\about\\1.mp4"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\about\\a1.png",
+      "PackagePath": "staticwebassets\\images\\about\\a1.png"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\about\\a2.jpg",
+      "PackagePath": "staticwebassets\\images\\about\\a2.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\about\\a3.png",
+      "PackagePath": "staticwebassets\\images\\about\\a3.png"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\about\\a4.png",
+      "PackagePath": "staticwebassets\\images\\about\\a4.png"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\about\\a5.jpg",
+      "PackagePath": "staticwebassets\\images\\about\\a5.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\about\\a6.jpg",
+      "PackagePath": "staticwebassets\\images\\about\\a6.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\about\\banner.png",
+      "PackagePath": "staticwebassets\\images\\about\\banner.png"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\banner\\b1.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\b1.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\banner\\b10.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\b10.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\banner\\b14.png",
+      "PackagePath": "staticwebassets\\images\\banner\\b14.png"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\banner\\b16.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\b16.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\banner\\b17.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\b17.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\banner\\b18.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\b18.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\banner\\b19.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\b19.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\banner\\b2.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\b2.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\banner\\b20.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\b20.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\banner\\b4.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\b4.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\banner\\b7.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\b7.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\blog\\b1.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\b1.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\blog\\b2.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\b2.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\blog\\b3.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\b3.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\blog\\b4.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\b4.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\blog\\b5.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\b5.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\blog\\b6.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\b6.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\blog\\b7.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\b7.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\button.png",
+      "PackagePath": "staticwebassets\\images\\button.png"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\features\\f1.png",
+      "PackagePath": "staticwebassets\\images\\features\\f1.png"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\features\\f2.png",
+      "PackagePath": "staticwebassets\\images\\features\\f2.png"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\features\\f3.png",
+      "PackagePath": "staticwebassets\\images\\features\\f3.png"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\features\\f4.png",
+      "PackagePath": "staticwebassets\\images\\features\\f4.png"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\features\\f5.png",
+      "PackagePath": "staticwebassets\\images\\features\\f5.png"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\features\\f6.png",
+      "PackagePath": "staticwebassets\\images\\features\\f6.png"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\hero4.png",
+      "PackagePath": "staticwebassets\\images\\hero4.png"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\pay\\app.jpg",
+      "PackagePath": "staticwebassets\\images\\pay\\app.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\pay\\pay.png",
+      "PackagePath": "staticwebassets\\images\\pay\\pay.png"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\pay\\play.jpg",
+      "PackagePath": "staticwebassets\\images\\pay\\play.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\people\\1.png",
+      "PackagePath": "staticwebassets\\images\\people\\1.png"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\people\\2.png",
+      "PackagePath": "staticwebassets\\images\\people\\2.png"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\people\\3.png",
+      "PackagePath": "staticwebassets\\images\\people\\3.png"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\products\\f1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\f1.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\products\\f2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\f2.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\products\\f3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\f3.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\products\\f4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\f4.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\products\\f5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\f5.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\products\\f6.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\f6.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\products\\f7.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\f7.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\products\\f8.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\f8.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\products\\n1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\n1.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\products\\n2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\n2.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\products\\n3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\n3.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\products\\n4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\n4.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\products\\n5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\n5.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\products\\n6.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\n6.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\products\\n7.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\n7.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\images\\products\\n8.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\n8.jpg"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "D:\\New folder (2)\\E-Commeric\\E-Commeric\\wwwroot\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.E_Commercial.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.E_Commercial.props",
+      "PackagePath": "build\\E_Commercial.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.E_Commercial.props",
+      "PackagePath": "buildMultiTargeting\\E_Commercial.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.E_Commercial.props",
+      "PackagePath": "buildTransitive\\E_Commercial.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

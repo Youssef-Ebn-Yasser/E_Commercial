@@ -1,0 +1,138 @@
+﻿@model User
+@{
+
+    <link rel="stylesheet" href="css/frame-work.css">
+    <link rel="stylesheet" href="css/style.css">
+}
+    <div class="page d-flex">
+        <div class="sidebar bg-white  p-20 p-relative">
+            <h3 class="p-relative text-c mt-0">Yousef</h3>
+            <ul>
+                <li>
+                    <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="index.html">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span class="hide-mobile">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black rad-6 p-10" asp-action="ShowAll" asp-controller="Product">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span class="hide-mobile">Product</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black rad-6 p-10" asp-action="ShowAll" asp-controller="User">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span class="hide-mobile">Manage Users</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black rad-6 p-10" asp-action="ShowAll" asp-controller="Category">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span class="hide-mobile">Category</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black rad-6 p-10" asp-action="ShowAll" asp-controller="CategoryType">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span class="hide-mobile">Category Type</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="contant w-full">
+        <div class="card profile-card">
+            <div class="profile-header">
+                <i class="bi bi-person-circle icon"></i>
+                <h4 class="mt-2">User Profile</h4>
+            </div>
+            <div class="profile-body">
+                <div class="profile-item">
+                    <i class="bi bi-person-vcard"></i>
+                    <span><strong>National ID:</strong>@Model.NationalId</span>
+                </div>
+                <div class="profile-item">
+                    <i class="bi bi-person"></i>
+                    <span><strong>User Name:</strong>@Model.Name</span>
+                </div>
+                <div class="profile-item">
+                    <i class="bi bi-geo-alt"></i>
+                    <span><strong>Address:</strong>@Model.Address</span>
+                </div>
+                <div class="profile-item">
+                    <i class="bi bi-person-badge"></i>
+                    <span><strong>Username:</strong>@Model.UserName</span>
+                </div>
+                <div class="profile-item">
+                    <i class="bi bi-envelope"></i>
+                    <span><strong>Email:</strong>@Model.Email</span>
+                </div>
+                <div class="profile-item">
+                    <i class="bi bi-telephone"></i>
+                    <span><strong>Phone:</strong> @Model.PhoneNumber</span>
+                </div>
+                <div class="profile-item">
+                    <i class="bi bi-people"></i>
+                    <span><strong>Type:</strong>@Model.Type</span>
+                </div>
+                <div class="profile-item">
+                    <i class="bi bi-calendar"></i>
+                    <span><strong>Created Date:</strong> 2024-02-12</span>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+
+<head>
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .profile-card {
+            max-width: 500px;
+            margin: 50px auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+            .profile-header .icon {
+                font-size: 80px;
+            }
+
+        .profile-body {
+            padding: 20px;
+        }
+
+        .profile-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+            .profile-item i {
+                font-size: 20px;
+                width: 30px;
+                color: #007bff;
+            }
+
+            .profile-item span {
+                font-size: 16px;
+                color: #555;
+                margin-left: 10px;
+            }
+    </style>
+</head>
